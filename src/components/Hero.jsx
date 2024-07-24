@@ -11,7 +11,7 @@ import star3 from "../assets/Star 3.png";
 
 function Hero() {
   return (
-    <section className="flex relative w-[1090px] justify-start items-start h-screen m-auto ">
+    <section className="flex relative max-w-[1090px] justify-start items-start m-auto ">
       <div className="flex flex-col mt-[115px] ">
         <h2 className="font-bold capitalize leading-[64px] z-2   text-[64px] max-w-[618px]">
           make the best financial decisions
