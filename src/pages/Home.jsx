@@ -1,7 +1,8 @@
 import React from "react";
 import Hero from "../components/Hero";
 import Features from "../components/Features";
-// import Advantages from "../components/Advantages";
+import splash2 from "../assets/splash2.png";
+import Advantages from "../components/Advantages";
 // import Testimonial from "../components/Testimonial";
 // import Faq from "../components/Faq";
 // import Download from "../components/Download";
@@ -9,10 +10,19 @@ import Features from "../components/Features";
 
 function Home() {
   return (
-    <div>
+    <div className="">
       <Hero />
-      <Features />
-      {/* <Advantages /> */}
+
+      <div className="relative">
+        <Features />
+        <img
+          src={splash2}
+          className="absolute right-[0px] top-[-180px] "
+          alt=""
+        />
+      </div>
+
+      <Advantages />
       {/* <Testimonial /> */}
       {/* <Faq /> */}
       {/* <Download /> */}

@@ -1,13 +1,14 @@
 import featuresPhone1 from "../assets/feature-phone-1.png";
-// import splash2 from "../assets/splash2.png";
+import star3 from "../assets/Star 3.png";
 import splash3 from "../assets/splash3.png";
+import splash2 from "../assets/splash2.png";
 import icon1 from "../assets/Icon1.png";
 import icon2 from "../assets/Icon2.png";
 import icon3 from "../assets/Icon3.png";
 
 function Features() {
   return (
-    <section className="flex relative items-start m-auto justify-between max-w-[1090px]">
+    <section className="flex relative  items-start m-auto justify-between max-w-[1090px]">
       <div>
         <div className="relative">
           <img
@@ -64,11 +65,11 @@ function Features() {
           </div>
         </div>
       </div>
-      {/* <img
-        src={splash2}
-        className="absolute top-[-200px] z-[5] right-[-200px]"
+      <img
+        src={star3}
+        className="absolute w-[48px] left-[-100px] top-[40px]"
         alt=""
-      /> */}
+      />
     </section>
   );
 }
