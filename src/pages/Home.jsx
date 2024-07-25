@@ -17,7 +17,7 @@ function Home() {
         <Features />
         <img
           src={splash2}
-          className="absolute right-[0px] top-[-180px] "
+          className="absolute right-[0px] z-[-1] top-[-10px] "
           alt=""
         />
       </div>

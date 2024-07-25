@@ -9,7 +9,7 @@ import star3 from "../assets/Star 3.png";
 
 function Advantages() {
   return (
-    <section className="advantages m-auto  max-w-[1090px]">
+    <section id="advantages" className="advantages m-auto  max-w-[1090px]">
       <div className="flex relative  items-center m-auto justify-between">
         <div className="flex flex-col justify-start items-start">
           <div>
@@ -42,12 +42,12 @@ function Advantages() {
         <div className="relative">
           <img
             src={phone1}
-            className="max-w-[724px] max-h-[724px] mt-[-80px]  ml-[-100px]"
+            className="max-w-[719.49px] max-h-[719.49px] mt-[-118px] mr-[-142.49px] "
             alt=""
           />
           <img
             src={splash4}
-            className="absolute bottom-[120px] z-[-1] left-[-150px]"
+            className="absolute bottom-[60px] z-[-1] left-[-50px]"
             alt=""
           />
           <img
@@ -58,11 +58,11 @@ function Advantages() {
         </div>
       </div>
 
-      <div className="flex relative  items-center m-auto justify-between">
+      <div className="flex relative mt-[-27px]  items-center m-auto justify-between">
         <div className="relative">
           <img
             src={phone2}
-            className="max-w-[724px] max-h-[724px] ml-[-100px]"
+            className="max-w-[719.49px] max-h-[719.49px] ml-[-119px]"
             alt=""
           />
           <img

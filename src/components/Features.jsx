@@ -8,12 +8,15 @@ import icon3 from "../assets/Icon3.png";
 
 function Features() {
   return (
-    <section className="flex relative  items-start m-auto justify-between max-w-[1090px]">
+    <section
+      id="features"
+      className="flex relative mt-[141px]   items-start m-auto  justify-between max-w-[1090px]"
+    >
       <div>
         <div className="relative">
           <img
             src={featuresPhone1}
-            className="max-w-[724px] max-h-[724px] mt-[-80px]  ml-[-100px]"
+            className="max-w-[719.49px] max-h-[719.49px] mt-[-80px]  ml-[-120px]"
             alt=""
           />
           <img
@@ -25,7 +28,7 @@ function Features() {
         <div></div>
       </div>
       {/* 2 */}
-      <div className="flex flex-col mt-8 ml-[-20px]  justify-start items-start">
+      <div className="flex flex-col mt-11 ml-[-20px]  justify-start items-start">
         <div>
           <span className="text-primary uppercase font-medium text-lg tracking-widest">
             features
@@ -67,7 +70,7 @@ function Features() {
       </div>
       <img
         src={star3}
-        className="absolute w-[48px] left-[-100px] top-[40px]"
+        className="absolute w-[48px] left-[-84px] top-[47px]"
         alt=""
       />
     </section>

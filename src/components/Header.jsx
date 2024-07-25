@@ -2,8 +2,6 @@ import React from "react";
 import Logo from "../assets/logo.png";
 import Button from "./Button";
 
-
-
 function Header() {
   return (
     <div className="w-full h-[60px] mt-[40px] ">
@@ -20,7 +18,7 @@ function Header() {
               <li>
                 <a
                   className="font-medium w-[60px]  inline-block text-black text-[20px] leading-7 transition-all duration-100 hover:font-bold hover:text-primary  hover:text-outline"
-                  href="#"
+                  href="home"
                 >
                   Home
                 </a>
@@ -44,7 +42,7 @@ function Header() {
               <li>
                 <a
                   className="font-medium w-[89px]  inline-block text-black text-[20px] leading-7 transition-all duration-100 hover:font-bold hover:text-primary  hover:text-outline"
-                  href="#"
+                  href="#features"
                 >
                   Features
                 </a>
